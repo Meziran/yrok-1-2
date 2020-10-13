@@ -1,0 +1,65 @@
+* body{
+    background-color: #FFFFFF;
+}
+h2, h3{
+    color: #212121;
+}
+p{
+    color: #757575;
+}
+/* HEADER */
+.logo-web{
+    color: #2196F3; 
+}
+.logo-studio{
+    color: #212121;
+}
+.nav-header{
+    color: #212121;
+}
+.nav-header:hover, .nav-header:focus{
+    color: #2196F3;
+}
+.connection-header{
+color: #757575; 
+}
+.connection-header:hover, .connection-header:focus{
+  color: #2196F3;  
+}
+/* HERO */
+.hero{
+    background-color: #2F303A;;
+}
+.hero-text{
+    color: #FFFFFF;  
+}
+.button-hero{
+    background-color: #2196F3;
+}
+.button-hero-text{
+    color: #FFFFFF;
+}
+
+/* TEAM */
+.team{
+    background-color: #F5F4FA;;
+}
+/* FOOTER */
+.footer{
+    background-color: #2F303A;
+}
+.footer-studio{
+    color: #FFFFFF;
+}
+.address{
+    color: #FFFFFF;
+}
+.address:hover, .address:focus{
+    color: #2196F3;  
+  }
+.connection-footer{
+    color: rgba(255, 255, 255, 0.6);
+}
+.connection-footer:hover, .connection-footer:focus{
+    color: #2196F3;  
+  }
