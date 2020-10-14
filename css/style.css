@@ -1,11 +1,14 @@
 * body{
     background-color: #FFFFFF;
+    
 }
-h2, h3{
+a {text-decoration: none;}
+.title-h2, .title-h3{
     color: #212121;
 }
-p{
-    color: #757575;
+.text{
+    color: #757575; 
+
 }
 /* HEADER */
 .logo-web{
@@ -63,3 +66,19 @@ color: #757575;
 .connection-footer:hover, .connection-footer:focus{
     color: #2196F3;  
   }
+  /* PORTFOLIO */
+/* .portfolio-nav{
+      width: 130px;
+      height: 38px;
+      background-color: #F5F4FA;
+}
+.portfolio-nav-title{
+color: #212121;
+} 
+.portfolio-nav-title:hover, .portfolio-nav-title:focus{
+    color: #FFFFFF;
+}
+.portfolio-nav:hover, .portfolio-nav:focus{
+    background-color: #2196F3;
+    color: #FFFFFF; */
+}
