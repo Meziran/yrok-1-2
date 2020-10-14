@@ -1,10 +1,13 @@
 * body{
     background-color: #FFFFFF;
-    
-}
+
+    }
+    ul {
+        list-style-type: none;
+    }
 a {text-decoration: none;}
 .title-h2, .title-h3{
-    color: #212121;
+     color: #212121; 
 }
 .text{
     color: #757575; 
@@ -23,6 +26,9 @@ a {text-decoration: none;}
 .nav-header:hover, .nav-header:focus{
     color: #2196F3;
 }
+.site-nav .nav-header.current{
+    color:  #2196F3;
+} 
 .connection-header{
 color: #757575; 
 }
@@ -36,10 +42,10 @@ color: #757575;
 .hero-text{
     color: #FFFFFF;  
 }
-.button-hero{
+.buton-hero{
     background-color: #2196F3;
 }
-.button-hero-text{
+.buton-hero-text{
     color: #FFFFFF;
 }
 
@@ -67,18 +73,19 @@ color: #757575;
     color: #2196F3;  
   }
   /* PORTFOLIO */
-/* .portfolio-nav{
+ .portfolio-nav>h3>a{
       width: 130px;
       height: 38px;
       background-color: #F5F4FA;
-}
-.portfolio-nav-title{
-color: #212121;
-} 
-.portfolio-nav-title:hover, .portfolio-nav-title:focus{
-    color: #FFFFFF;
-}
-.portfolio-nav:hover, .portfolio-nav:focus{
-    background-color: #2196F3;
-    color: #FFFFFF; */
+      color: #212121;
+      padding: 6px;
+      padding-right: 22px;
+      padding-left: 22px;
+      border-radius: 4px;
+      }
+
+.portfolio-nav>h3>a:hover,
+.portfolio-nav>h3>a:focus{
+background-color: #2196F3;
+color: #FFFFFF;
 }
