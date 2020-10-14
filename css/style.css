@@ -1,19 +1,31 @@
 * body{
     background-color: #FFFFFF;
-
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     }
-    ul {
+ul {
         list-style-type: none;
     }
 a {text-decoration: none;}
 .title-h2, .title-h3{
      color: #212121; 
+     
 }
 .text{
-    color: #757575; 
+    color: #757575;
+    
+    
+line-height: 1.71;
 
 }
 /* HEADER */
+.logo{
+    font-family: Raleway;
+    font: weight 700;;
+    font-size: 26px;
+    line-height: 1.19; 
+}
 .logo-web{
     color: #2196F3; 
 }
@@ -22,6 +34,9 @@ a {text-decoration: none;}
 }
 .nav-header{
     color: #212121;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .nav-header:hover, .nav-header:focus{
     color: #2196F3;
@@ -30,10 +45,15 @@ a {text-decoration: none;}
     color:  #2196F3;
 } 
 .connection-header{
-color: #757575; 
+    color: #757575; 
+
+    font-weight: 500;
+
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .connection-header:hover, .connection-header:focus{
-  color: #2196F3;  
+    color: #2196F3;  
 }
 /* HERO */
 .hero{
@@ -41,17 +61,46 @@ color: #757575;
 }
 .hero-text{
     color: #FFFFFF;  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
 }
 .buton-hero{
-    background-color: #2196F3;
+      background-color: #2196F3;
 }
 .buton-hero-text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    font-family: Roboto, sans-serif;
+
     color: #FFFFFF;
 }
+.title-h3{
+    font-weight: 700;
 
+    line-height: 1.14;
+}
+/*  What are we doing */
+.title-h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.19;
+    text-align: center;
+}
 /* TEAM */
 .team{
     background-color: #F5F4FA;;
+}
+.title-team{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;  
+}
+.team-text{
+    font-size: 16px;
+    line-height: 1.19;
 }
 /* FOOTER */
 .footer{
@@ -61,31 +110,39 @@ color: #757575;
     color: #FFFFFF;
 }
 .address{
+    font-style: normal;
+   
+    line-height: 1.71;
+
     color: #FFFFFF;
 }
 .address:hover, .address:focus{
     color: #2196F3;  
   }
 .connection-footer{
+    font-style: normal;
+    line-height: 1.71;
+
     color: rgba(255, 255, 255, 0.6);
 }
 .connection-footer:hover, .connection-footer:focus{
     color: #2196F3;  
   }
   /* PORTFOLIO */
- .portfolio-nav>h3>a{
-      width: 130px;
-      height: 38px;
-      background-color: #F5F4FA;
-      color: #212121;
-      padding: 6px;
-      padding-right: 22px;
-      padding-left: 22px;
-      border-radius: 4px;
-      }
 
-.portfolio-nav>h3>a:hover,
-.portfolio-nav>h3>a:focus{
-background-color: #2196F3;
-color: #FFFFFF;
-}
+  .button{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.61;
+
+      color: #212121;
+  }
+
+
+.button:hover,
+.button:focus{
+    font-family: Roboto, sans-serif;
+    background-color: #2196F3;
+    color: #FFFFFF;
+} 
