@@ -86,6 +86,10 @@ a {text-decoration: none;}
     font-weight: 700;
     line-height: 1.14;
 }
+/*  features  */
+.title-features{
+text-transform: uppercase;
+}
 /*  What are we doing */
 .title-h2{
     font-weight: 700;
